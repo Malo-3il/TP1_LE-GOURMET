@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+.container {
+    max-width: 800px;
+}

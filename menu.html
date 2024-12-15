@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Menu</title>
+</head>
+<body>
+    <header>
+        <h1>Le Gourmet Limousin</h1>
+    </header>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center">
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+            <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">A propos</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="container my-5">
+            <h2 class="fw-bold">Notre Menu</h2>
+            
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="galetou.png" class="rounded img-fluid" alt="galetou">
+                    <h3 class="mt-2">Galetou</h3>
+                    <p>Prix : <span id="price-galetou" class="fw-bold">90</span>€</p>
+                    <p>Une Galetou du Limousin</p>
+                    <button id="discount-button-galetou" class="btn btn-primary mt-3">Appliquer une réduction de 10%</button>
+                </div>
+                <div class="col-md-3">
+                    <img src="clafoutis.jpg" class="rounded img-fluid" alt="clafoutis">
+                    <h3>Clafoutis</h3>
+                    <p>Un Clafoutis du Limousin</p>
+                    <p>Prix : <span id="price-clafoutis" class="fw-bold">50</span>€</p>
+                    <button id="discount-button-clafoutis" class="btn btn-primary mt-3">Appliquer une réduction de 10%</button>
+                </div>
+                <div class="col-md-3">
+                    <img src="boudin.jpg" class="rounded img-fluid" alt="boudin">
+                    <h3>Boudin</h3>
+                    <p>Un Boudin au pommes du Limousin</p>
+                    <p>Prix : <span id="price-boudin" class="fw-bold">30</span>€</p>
+                    <button id="discount-button-boudin" class="btn btn-primary mt-3">Appliquer une réduction de 10%</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
